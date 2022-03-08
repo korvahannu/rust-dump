@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["eat_at_restaurant",""],["eaty_eaty",""]],"type":[["IoResult","A specialized `Result` type for I/O operations."]]});

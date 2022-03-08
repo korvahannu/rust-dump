@@ -1,0 +1,1 @@
+/mnt/A4F852FFF852CEE4/Rust\ Projects/simple/target/debug/simple: /mnt/A4F852FFF852CEE4/Rust\ Projects/simple/src/hello/mod.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/simple/src/hello/world.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/simple/src/main.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/simple/src/square/mod.rs
