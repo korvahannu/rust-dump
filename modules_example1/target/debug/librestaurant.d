@@ -1,1 +1,0 @@
-/mnt/A4F852FFF852CEE4/Rust\ Projects/restaurant/target/debug/librestaurant.rlib: /mnt/A4F852FFF852CEE4/Rust\ Projects/restaurant/src/front_of_house/hosting.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/restaurant/src/front_of_house.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/restaurant/src/lib.rs
