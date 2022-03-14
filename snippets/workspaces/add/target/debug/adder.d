@@ -1,0 +1,1 @@
+/mnt/A4F852FFF852CEE4/Rust\ Projects/workspaces/add/target/debug/adder: /mnt/A4F852FFF852CEE4/Rust\ Projects/workspaces/add/add-one/src/lib.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/workspaces/add/add-two/src/lib.rs /mnt/A4F852FFF852CEE4/Rust\ Projects/workspaces/add/adder/src/main.rs
