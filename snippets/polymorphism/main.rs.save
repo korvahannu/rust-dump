@@ -1,0 +1,40 @@
+#![allow(dead_code)]
+
+use polymorphism::{Draw, Button, Screen};
+
+struct SelectBox {
+    width: u32,
+    height: u32,
+    options: Vec<String>
+}
+
+impl Draw for SelectBox {
+    fn draw(&self) {
+        println!("Draw a selectbox {} {}", self.width, self.height);
+    }
+}
+
+fn main() {
+    let screen = Screen {
+        components: vec![
+            Box::new(
+                SelectBox {
+                    width: 50,
+                    height:25,
+                    options: vec![
+                        "Yes".to_string(),
+                        "No".to_string()
+                    ]
+                }
+            ),
+            Box::new(Button {
+                width: 50,
+                height:10,
+                label: "Ok".to_string()
+            })
+        ]
+    };
+    
+    pri
+    screen.run();
+}
