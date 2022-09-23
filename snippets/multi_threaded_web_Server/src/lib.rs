@@ -121,8 +121,10 @@ impl Worker {
 
             // First we use reciever.lock() to return a Result<T, E>
             // Then we unrwap it to retrieve the MutexGuard
-            // Then we use .recv() to turn the MutexGuard into another result
+            // Then we use .recv() to turn recieve messages from the receiver
+            // Note how we call the receiver while its in mutexguard
             // Then we finally use unwrap to access the Message inside
+            println!("Worker {} waiting for message", id);
             let message = receiver.lock().unwrap().recv().unwrap();
 
             // After we recieve a message, we compare it with match
@@ -133,6 +135,7 @@ impl Worker {
                     println!("Worker {} got job; executing", id);
 
                     job();
+                    println!("Worker {} finished executing job", id);
                 },
                 Message::Terminate => {
                     println!("Worker {} was told to terminate", id);

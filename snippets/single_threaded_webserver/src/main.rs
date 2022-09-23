@@ -17,6 +17,10 @@ fn main() {
         let stream = stream.unwrap();
 
         handle_connection(stream);
+
+        println!("{}");
+
+
     }
 }
 

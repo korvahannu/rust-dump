@@ -5,7 +5,7 @@ use std::thread;
 use std::time::Duration;
 use my_webserver::ThreadPool;
 
-const ADDRESS: &str = "127.0.0.1:7878";
+const ADDRESS: &str = "192.168.10.225:7878";
 
 fn main() {
     // Create a new TcpListener
@@ -20,9 +20,10 @@ fn main() {
 
     // ITerate over connection attempts
     for stream in listener.incoming() {
+
         // Program will panic if any stream errors
         let stream = stream.unwrap();
-
+        
         pool.execute(|| {
             handle_connection(stream);
         });
